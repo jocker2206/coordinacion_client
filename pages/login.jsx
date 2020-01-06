@@ -66,7 +66,13 @@ export default class Login extends Component
     
                     <img src="/static/img/logo-unu.png"
                         alt="logo"
-                        style={{ width: "150px", borderRadius: "50%" }}
+                        style={{ 
+                            borderRadius: "50%", 
+                            height: "150px", 
+                            background: "#fff",
+                            border: "2px solid #000",
+                            backgroundPosition: "center"
+                        }}
                     />
                     
                     <h4>UNU - SCA</h4>
